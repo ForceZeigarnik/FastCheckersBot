@@ -112,7 +112,7 @@ async def save_new_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return ConversationHandler.END
 
 def main() -> None:
-    application = Application.builder().token("8140527574:AAEM6Eu4g2Uid5qdIeVUp2RoRYAO6RUduFo").build()
+    application = Application.builder().token("tyttoken").build()
 
     # Регистрация обработчиков
     application.add_handler(CommandHandler("start", start))
